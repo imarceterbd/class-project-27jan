@@ -1,0 +1,28 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: sans-serif;
+}
+header {
+    background-image: url(../img/header-bg.jpg);
+    height: 1000px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    background-color: black;
+    overflow: auto;
+    margin-bottom: 80px;
+}
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid yellow;
+}
+.navbar {
+    display: flex;
+}
